@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: postgres1-statefulset
+  namespace: tp2
   labels:
     app: postgres1
 spec:

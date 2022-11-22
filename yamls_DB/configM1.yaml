@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: postgres-configuration-m1
+  namespace: tp2
   labels:
     app: postgres1
 data:
