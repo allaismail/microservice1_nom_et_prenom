@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: postgres-statefulset
+  name: postgres1-statefulset
   labels:
     app: postgres1
 spec:
@@ -23,4 +23,4 @@ spec:
             name: postgres-configuration-m1
         ports:
         - containerPort: 5432
-          name: postgresdb
+          name: postgres1db
